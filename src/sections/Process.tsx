@@ -18,7 +18,7 @@ export default function Process() {
             className="absolute top-6 right-[12.5%] left-[12.5%] hidden h-px origin-left bg-red lg:block"
             initial={{ scaleX: 0 }}
             whileInView={{ scaleX: 1 }}
-            viewport={{ once: true, margin: '-100px' }}
+            viewport={{ once: false, margin: '-100px' }}
             transition={{ duration: 1.1, ease: [0.16, 1, 0.3, 1] }}
             aria-hidden="true"
           />
